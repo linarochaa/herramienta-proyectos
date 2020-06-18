@@ -1,0 +1,1574 @@
+{
+  "procesos": [
+    {
+      "id": 4,
+      "nombre": "Gestión de la integración del proyecto",
+      "procesos": [
+        {
+          "id": 4.1,
+          "nombre": "Desarrollar el acta de constitución del proyecto",
+          "definicion": {
+            "texto": "El proceso de desarrollar el acta de constitución del proyecto tiene como objetivo formaliza el inicio del proyecto y establecer el nivel de autoridad que tendrá el director a lo largo del ciclo de vida del proyecto. En este documento se describen las necesidades, los objetivos y los entregables de manera general, se identifican suposiciones y restricciones y se establecen fechas importantes (hitos) del proyecto.",
+            "entradas": [
+              "Documentos de negocio",
+              "Acuerdos",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Habilidades interpersonales y de equipo",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Acta de constitución del proyecto",
+              "Registro de supuestos"
+            ]
+          }
+        },
+        {
+          "id": 4.2,
+          "nombre": "Desarrollar el plan para la dirección del proyecto",
+          "definicion": {
+            "texto": "incluye acciones para definir, integrar y coordinar todos los planes de las diferentes áreas de conocimiento. Contiene: Plan de gestión de los interesados. Plan de gestión de las adquisiciones. Plan de gestión de los riesgos. Plan de gestión de las comunicaciones. Plan de gestión de los Recursos humanos. Plan de gestión de la calidad. Plan de gestión de los costos. Plan de gestión del cronograma. Plan de gestión del alcance. Línea base del alcance, tiempo y costos. Plan de gestión de los requisitos. Plan de de mejora de los procesos. Plan de gestión de cambios. Plan de gestión de la configuración.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Salidas de otros procesos",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan para la dirección del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 4.3,
+          "nombre": "Dirigir y gestionar el trabajo del proyecto",
+          "definicion": {
+            "texto": "Dirigir y gestionar el trabajo del proyecto es llevar a cabo lo desarrollado en el plan para la dirección del proyecto. Se implementan los cambios aprobados (acciones correctivas, acciones preventivas, reparación de defectos) y se revisa de manera periódica el impacto de los cambios sobre el proyecto. Entre las actividades que se realizan para dirigir y gestionar el trabajo del proyecto se encuentran: Desarrollar los entregables. Proporcionar, capacitar y dirigir a los miembros del equipo. Obtener, gestionar y utilizar los recursos, incluidos materiales, herramientas, equipos e instalaciones. Implementar los métodos y estándares planificados. Gestionar la comunicación. Generar datos de desempeño del trabajo, tales como costo, cronograma, avance técnico y de calidad y estado, con el fin de facilitar la realización de las previsiones. Emitir solicitudes de cambio e implementar los cambios aprobados al alcance. Gestionar los riesgos e implementar las actividades de respuesta a los mismos. Gestionar vendedores y proveedores. Gestionar los interesados y su participación. Documentar las lecciones aprendidas.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Solicitudes de cambio aprobadas",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Sistema de información para la dirección de proyectos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Entregables",
+              "Datos de desempeño del trabajo",
+              "Registro de incidentes",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        },
+        {
+          "id": 4.4,
+          "nombre": "Gestionar el conocimiento del proyecto",
+          "definicion": {
+            "texto": "Vacío",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Entregables",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Gestión del conocimiento",
+              "Gestión de la información",
+              "Habilidades interpersonales y de equipo"
+            ],
+            "salidas": [
+              "Registro de lecciones aprendidas",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        },
+        {
+          "id": 4.5,
+          "nombre": "Monitorear y controlar el trabajo del proyecto",
+          "definicion": {
+            "texto": "Monitorear y controlar el trabajo del proyecto es el proceso para dar seguimiento, revisar e informar del avance del proyecto respecto a los objetivos de desempeño definidos. Durante estos procesos se realiza una comparación del desempeño real contra los que se había planificado. Se identifican nuevos riesgos y se implementan y verifican los cambios formalmente aprobados.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Información de desempeño del trabajo",
+              "Acuerdos",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Análisis de datos",
+              "Toma de decisiones",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Informes de desempeño del trabajo",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 4.6,
+          "nombre": "Realizar el control integrado de cambios",
+          "definicion": {
+            "texto": "Evaluar el impacto de la modificación o cambio al proyecto. Crear y analizar alternativas. Reunirse con los directivos, interesados internos y patrocinadores para la aprobación o rechazo. Ajustar la línea base y el plan. Notificar a los interesados. Gestionar el proyecto acorde al nuevo plan",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Informes de desempeño del trabajo",
+              "Solicitudes de cambio",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Herramientas de control de cambios",
+              "Análisis de datos",
+              "Toma de decisiones",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Solicitudes de cambio aprobadas",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 4.7,
+          "nombre": "Cerrar el proyecto o fase",
+          "definicion": {
+            "texto": "Cerrar el proyecto o fase también se conoce como cierre administrativo, en este proceso se tienen que evaluar los resultados antes de seguir con la siguiente fase (si es que el proyecto fue dividido en fases). Pasos para cerrar el proyecto: Verificar el producto, servicio o resultado mutuamente acordado, Transferencia del producto, servicio o resultado. Aprobación formal del producto, servicio o resultado por parte de los interesados. Cierre del contrato. Informe de cierre. Informe de lecciones aprendidas. Cierre del proyecto o fase de un proyecto. Archivar la Información histórica.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Entregables aceptados",
+              "Documentos de negocio",
+              "Acuerdos",
+              "Documentación de las adquisiciones",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Análisis de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Actualizaciones a los documentos del proyecto",
+              "Transferencia del producto, servicio o resultado final",
+              "Informe final",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Gestión del alcance del proyecto",
+      "procesos": [
+        {
+          "id": 5.1,
+          "nombre": "Planificar la gestión del alcance",
+          "definicion": {
+            "texto": "En la gestión del alcance se define cómo se llevarán a cabo los procesos del área de conocimiento de alcance. Se debe describir cómo se va a definir, validar y controlar el alcance del proyecto",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Análisis de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan para la gestión del alcance",
+              "Plan de gestión de los requisitos"
+            ]
+          }
+        },
+        {
+          "id": 5.2,
+          "nombre": "Recopilar requisitos",
+          "definicion": {
+            "texto": "Los requisitos incluyen las necesidades, deseos y expectativas cuantificadas y documentadas del patrocinador, del cliente y de otros interesados. Deben estar formalmente documentados y formalmente aprobados. Este proceso permite gestionar las expectativas de los interesados y documentar las necesidades para convertirlas en requisitos del proyecto.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Documentos de negocio",
+              "Acuerdos",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Toma de decisiones",
+              "Representación de datos",
+              "Habilidades interpersonales y de equipo",
+              "Diagramas de contexto",
+              "Prototipos"
+            ],
+            "salidas": [
+              "Documentación de requisitos",
+              "Matriz de trazabilidad de requisitos"
+            ]
+          }
+        },
+        {
+          "id": 5.3,
+          "nombre": "Definir el alcance",
+          "definicion": {
+            "texto": "Vacío",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Análisis de datos",
+              "Toma de decisiones",
+              "Habilidades interpersonales y de equipo",
+              "Análisis del producto"
+            ],
+            "salidas": [
+              "Enunciado del alcance del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 5.4,
+          "nombre": "Crear la EDT/WBS",
+          "definicion": {
+            "texto": "Es el proceso de subdividir los entregables y el trabajo del proyecto en componentes más pequeños y faciles de manejar",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Descomposición"
+            ],
+            "salidas": [
+              "Línea base del alcance",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 5.5,
+          "nombre": "Validar el alcance",
+          "definicion": {
+            "texto": "Validar el alcance es formalizar la aceptación de los entregables del proyecto que se han completado. Se revisan los entregables con el cliente o el patrocinador para asegurarse de que se han completado satisfactoriamente y para obtener de ellos su aceptación formal. La validación del alcance corresponde principalmente a la aceptación de los entregables, mientras que el control de la calidad corrobora la exactitud de los entregables y su cumplimiento con los requisitos de calidad especificados para ellos.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Entregables verificados",
+              "Datos de desempeño del trabajo"
+            ],
+            "herramientas": [
+              "Inspección",
+              "Toma de decisiones"
+            ],
+            "salidas": [
+              "Entregables aceptados",
+              "Información de desempeño del trabajo",
+              "Solicitudes de cambio",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 5.6,
+          "nombre": "Controlar el alcance",
+          "definicion": {
+            "texto": "Controlar el alcance es implementar cambios formalmente aprobados. Lo que se quiere es prevenir la corrupción del alcance (goldplating.- no pasó por el control integrado de cambios).",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Datos de desempeño del trabajo",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Análisis de datos"
+            ],
+            "salidas": [
+              "Información de desempeño del trabajo",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Gestión del cronograma del proyecto",
+      "procesos": [
+        {
+          "id": 6.1,
+          "nombre": "Planificar la gestión del cronograma",
+          "definicion": {
+            "texto": "Planificar la gestión del cronograma implica definir las políticas para elaborar y gestionar el cronograma y los temas relacionados con la gestión de cambios. Se define cómo se van a gestionar las contingencias, los cambios solicitados en el cronograma y también cómo se va a actualizar esos cambios.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Análisis de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan de gestión del cronograma"
+            ]
+          }
+        },
+        {
+          "id": 6.2,
+          "nombre": "Definir las actividades",
+          "definicion": {
+            "texto": "Los paquetes de trabajo se descomponen en componentes más pequeños denominados actividades, que representan el trabajo necesario para completar los paquetes de trabajo. Con estas actividades se define el cronograma, costos, riesgos y recursos requeridos en el plan de dirección.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Descomposición",
+              "Planificación gradual",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Lista de actividades",
+              "Atributos de la actividad",
+              "Lista de hitos",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 6.3,
+          "nombre": "Secuenciar las actividades",
+          "definicion": {
+            "texto": "Secuenciar las actividades es determinar las dependencias entre las actividades identificadas del proyecto. La secuencia de tareas puede llevarse a cabo mediante la utilización de un software de gestión de proyectos o mediante técnicas manuales.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Método de diagramación por precedencia",
+              "Determinación e integración de las dependencias",
+              "Adelantos y retrasos",
+              "Sistema de información para la dirección de proyectos"
+            ],
+            "salidas": [
+              "Diagrama de red del cronograma del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 6.4,
+          "nombre": "Estimar la duración de las actividades",
+          "definicion": {
+            "texto": "Estimar la duración de las actividades es identificar la cantidad de períodos de trabajo necesarios para finalizar las actividades individuales con los recursos estimados. Se tiene una actividad en la cual se ha estimado un tiempo: optimista de 4 días, un tiempo probable de 7 días y un tiempo pesimista de 1.días",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Estimación análoga",
+              "Estimación paramétrica",
+              "Estimaciones basadas en tres valores",
+              "Estimación ascendente",
+              "Análisis de datos",
+              "Toma de decisiones",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Estimaciones de la duración",
+              "Base de las estimaciones",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 6.5,
+          "nombre": "Desarrollar el cronograma",
+          "definicion": {
+            "texto": "Desarrollar el cronograma consiste en integrar todas las actividades, secuencias, recursos y duraciones. Se analizan las secuencias de actividades, las duraciones, los requisitos de recursos y las restricciones del cronograma para crear el modelo de programación del proyecto. Es un proceso iterativo que determina las fechas de inicio y finalización planificadas para las actividades del proyecto y los hitos.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Acuerdos",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Análisis de la red del cronograma",
+              "Método de la ruta crítica",
+              "Optimización de recursos",
+              "Análisis de datos",
+              "Adelantos y retrasos",
+              "Compresión del cronograma",
+              "Sistema de información para la dirección de proyectos",
+              "Planificación ágil de liberaciones"
+            ],
+            "salidas": [
+              "Línea base del cronograma",
+              "Cronograma del proyecto",
+              "Datos del cronograma",
+              "Calendarios del proyecto",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 6.6,
+          "nombre": "Controlar el cronograma",
+          "definicion": {
+            "texto": "Controlar el cronograma tiene como propósito detectar desviaciones en el cronograma y establecer acciones correctivas y/o preventivas para minimizar el riesgo en el proyecto. Se utilizan dos métricas de valor ganado (EVM) para medir objetivamente el desempeño del cronograma: Índice de desempeño del cronograma (SPI) y la varianza del cronograma (SV)",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Datos de desempeño del trabajo",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Análisis de datos",
+              "Método de la ruta crítica",
+              "Sistema de información para la dirección de proyectos",
+              "Optimización de recursos",
+              "Adelantos y retrasos",
+              "Compresión del cronograma"
+            ],
+            "salidas": [
+              "Información de desempeño del trabajo",
+              "Pronósticos del cronograma",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Gestión de los costos del proyecto",
+      "procesos": [
+        {
+          "id": 7.1,
+          "nombre": "Planificar la gestión de los costos",
+          "definicion": {
+            "texto": "Planificar la gestión de los costos es establecer las políticas, los procedimientos y la documentación necesarios para planificar, gestionar, ejecutar el gasto y controlar los costos del proyecto. Los costos deben estar basados en la EDT y los estimados de costos deben hacerlos las personas o recursos que harán luego las tareas.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Análisis de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan de gestión de los costos"
+            ]
+          }
+        },
+        {
+          "id": 7.2,
+          "nombre": "Estimar los costos",
+          "definicion": {
+            "texto": "Estimar los costos consiste en desarrollar una estimación aproximada de los recursos monetarios necesarios para completar las actividades del proyecto. Los costos incluyen, entre otros, el personal, los materiales, el equipamiento, los servicios y las instalaciones, así como otras categorías especiales, tales como el factor de inflación, el costo de financiación o el costo de contingencia.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Estimación análoga",
+              "Estimación paramétrica",
+              "Estimación ascendente",
+              "Estimaciones basadas en tres valores",
+              "Análisis de datos",
+              "Sistema de información para la dirección de proyectos",
+              "Toma de decisiones"
+            ],
+            "salidas": [
+              "Estimaciones de costos",
+              "Base de las estimaciones",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 7.3,
+          "nombre": "Determinar el presupuesto",
+          "definicion": {
+            "texto": "Determinar el presupuesto consiste en sumar los costos estimados de las actividades individuales o paquetes de trabajo. El objetivo es establecer una línea base de costos autorizada con la que después se podrá monitorear y controlar el proyecto.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Documentos de negocio",
+              "Acuerdos",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Costos agregados",
+              "Análisis de datos",
+              "Revisar la información histórica",
+              "Conciliación del límite de financiamiento",
+              "Financiamiento"
+            ],
+            "salidas": [
+              "Línea base de costos",
+              "Requisitos de financiamiento del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 7.4,
+          "nombre": "Controlar los costos",
+          "definicion": {
+            "texto": "Controlar los costos es detectar desviaciones a la línea base de costos para que el equipo de trabajo pueda implementar acciones correctivas y minimizar el riesgo del proyecto. Implica analizar la relación entre el uso de los fondos del proyecto y el trabajo real efectuado a cambio de tales gastos.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Requisitos de financiamiento del proyecto",
+              "Datos de desempeño del trabajo",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Análisis de datos",
+              "Índice de desempeño del trabajo por completar",
+              "Sistema de información para la dirección de proyectos"
+            ],
+            "salidas": [
+              "Información de desempeño del trabajo",
+              "Pronósticos de costos",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Gestón de la calidad del proyecto",
+      "procesos": [
+        {
+          "id": 8.1,
+          "nombre": "Planificar la gestión de la calidad",
+          "definicion": {
+            "texto": "Planificar la gestión de la calidad es identificar y documentar los estándares y métricas para que el proyecto demuestre el cumplimiento con los mismos. La calidad se planifica, se diseña y se incorpora antes de que comience la ejecución del proyecto.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Toma de decisiones",
+              "Representación de datos",
+              "Planificación de pruebas e inspección",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan de gestión de la calidad",
+              "Métricas de calidad",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 8.2,
+          "nombre": "Gestionar la calidad",
+          "definicion": {
+            "texto": "Realizar el aseguramiento de la calidad consiste en verificar que se estén implementando todos los procesos y normas definidas en el plan de calidad. Se tiene que auditar los requisitos de calidad y los resultados obtenidos a partir de las medidas de control de calidad. Las actividades son supervisadas por un departamento de aseguramiento de calidad o una organización similar.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Recopilación de datos",
+              "Toma de decisiones",
+              "Representación de datos",
+              "Auditorías",
+              "Diseñar para X",
+              "Resolución de problemas",
+              "Métodos de mejora de la calidad"
+            ],
+            "salidas": [
+              "Informes de calidad",
+              "Documentos de prueba y evaluación",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 8.3,
+          "nombre": "Controlar la calidad",
+          "definicion": {
+            "texto": "Controlar la calidad esta enfocada a entregables mientras que asegurar la calidad es un proceso que verifica que se están realizando las tareas adecuadas.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Solicitudes de cambio aprobadas",
+              "Entregables",
+              "Datos de desempeño del trabajo",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Recopilación de datos",
+              "Inspección",
+              "Pruebas/evaluaciones de productos",
+              "Representación de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Mediciones de control de calidad",
+              "Entregables verificados",
+              "Información de desempeño del trabajo",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Gestión de los recursos del proyecto",
+      "procesos": [
+        {
+          "id": 9.1,
+          "nombre": "Planificar la gestión de recursos",
+          "definicion": {
+            "texto": "Planificar la gestión de los recursos humanos es el proceso de identificar y documentar los roles dentro de un proyecto, las responsabilidades, las habilidades requeridas y las relaciones de comunicación, así como de crear un plan para la gestión de personal. También se define como gestionará la relaciones jerárquicas y las fechas de adquisición y liberación del personal.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Representación de datos",
+              "Teoría organizacional",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan de gestión de los recursos",
+              "Acta de constitución del equipo",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 9.2,
+          "nombre": "Estimar los recursos de las actividades",
+          "definicion": {
+            "texto": "Estimar los recursos de las actividades es en donde se identifica el tipo, cantidad y características de los recursos necesarios para completar las actividades, lo que permite estimar el costo y la duración de manera más precisa.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Estimación ascendente",
+              "Estimación análoga",
+              "Estimación paramétrica",
+              "Análisis de datos",
+              "Sistema de información para la dirección de proyectos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Requisitos de recursos",
+              "Base de las estimaciones",
+              "Estructura de desglose de recursos",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 9.3,
+          "nombre": "Adquirir recursos",
+          "definicion": {
+            "texto": "Para adquirir al equipo del proyecto se debe conocer qué personas han sido previamente asignadas al proyecto así como negociar para obtener a los mejores recursos posibles. Contratar a nuevos trabajadores (internos o externos) y conocer las ventajas y desventajas de los equipos virtuales. No adquirir los recursos humanos necesarios para el proyecto puede impactar en los cronogramas, los presupuestos, la satisfacción del cliente, la calidad y los riesgos.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Toma de decisiones",
+              "Habilidades interpersonales y de equipo",
+              "Asignación Previa",
+              "Equipos virtuales"
+            ],
+            "salidas": [
+              "Asignaciones de recursos físicos",
+              "Asignaciones del equipo del proyecto",
+              "Calendarios de recursos",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto",
+              "Actualizaciones a los factores ambientales de la empresa",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        },
+        {
+          "id": 9.4,
+          "nombre": "Desarrollar el equipo",
+          "definicion": {
+            "texto": " Desarrollar el equipo del proyecto es el momento en el que se mejoran las capacidades individuales y grupales de los miembros del equipo. Por lo tanto el equipo debe mejorar competencias, cohesión, trabajo en equipo, confianza, interrelaciones, habilidades. Además se debe motivar constantemente a su equipo proporcionando desafíos y oportunidades, brindando retroalimentación y apoyo de manera oportuna.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Coubicación",
+              "Equipos virtuales",
+              "Tecnología de la comunicación",
+              "Habilidades interpersonales y de equipo",
+              "Reconocimiento y recompensas",
+              "Capacitación",
+              "Evaluaciones individuales y de equipo",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Evaluaciones de desempeño del equipo",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto",
+              "Actualizaciones a los factores ambientales de la empresa",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        },
+        {
+          "id": 9.5,
+          "nombre": "Dirigir el equipo",
+          "definicion": {
+            "texto": "Dirigir el equipo del proyecto implica dar seguimiento del desempeño de los integrantes, implica retroalimentación y resolución de conflictos o polémicas. También se suelen enviar solicitudes de cambio, se actualiza el plan de gestión de los recursos humanos, se resuelven los problemas, se suministran datos de entrada para las evaluaciones del desempeño y se añaden lecciones aprendidas a la base de datos de la organización.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Informes de desempeño del trabajo",
+              "Evaluaciones de desempeño del equipo",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Habilidades interpersonales y de equipo",
+              "Sistema de información para la dirección de proyectos"
+            ],
+            "salidas": [
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto",
+              "Actualizaciones a los factores ambientales de la empresa"
+            ]
+          }
+        },
+        {
+          "id": 9.6,
+          "nombre": "Controlar los recursos",
+          "definicion": {
+            "texto": "Es el proceso de asegurar que los recursos asignados y adjudicados al proyecto están disponibles tal como se planifico, asi como de monitorear la utilizacion de recursos planificada frente a la real y realizar acciones correctivas segun sea necesario.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Datos de desempeño del trabajo",
+              "Acuerdos",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Análisis de datos",
+              "Resolución de problemas",
+              "Habilidades interpersonales y de equipo",
+              "Sistema de información para la dirección de proyectos"
+            ],
+            "salidas": [
+              "Información de desempeño del trabajo",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Gestión de las comunicaciones",
+      "procesos": [
+        {
+          "id": 10.1,
+          "nombre": "Planificar las gestión de las comunicaciones",
+          "definicion": {
+            "texto": "Planificar la gestión de las comunicaciones es determinar cuáles serán las necesidades y los requisitos de información de los interesados y de los activos de la organización disponibles. Se tiene que garantizar que la generación, la recopilación, la distribución, el almacenamiento, la recuperación y la disposición final de la información del proyecto sean adecuados y oportunos.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Análisis de requisitos de comunicación",
+              "Tecnología de la comunicación",
+              "Modelos de comunicación",
+              "Métodos de comunicación",
+              "Habilidades interpersonales y de equipo",
+              "Representación de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan de gestión de las comunicaciones",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 10.2,
+          "nombre": "Gestionar las comunicaciones",
+          "definicion": {
+            "texto": "Gestionar las comunicaciones es el proceso de crear, recopilar, distribuir, almacenar, recuperar la información del proyecto de acuerdo con el plan de gestión de las comunicaciones.  El principal objetivo es proporcionar un flujo de comunicación efectiva y eficiente entre el equipo del proyecto y los interesados.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Informes de desempeño del trabajo",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Tecnología de la comunicación",
+              "Métodos de comunicación",
+              "Habilidades de comunicación",
+              "Sistema de información para la dirección de proyectos",
+              "Presentación de informes del proyecto",
+              "Habilidades interpersonales y de equipo",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Comunicaciones del proyecto",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        },
+        {
+          "id": 10.3,
+          "nombre": "Monitorear las comunicaciones",
+          "definicion": {
+            "texto": "Controlar las comunicaciones provee un flujo de información óptimo entre el equipo del proyecto, los interesados y otros participantes. El proceso de comunicación del proyecto debe controlarse para garantizar que la comunicación se entregue de forma periódica A LA AUDIENCIA ADECUADA EN EL MOMENTO ADECUADO.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Datos de desempeño del trabajo",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Sistema de información para la dirección de proyectos",
+              "Representación de datos",
+              "Habilidades interpersonales y de equipo",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Información de desempeño del trabajo",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Gestión de los Riesgos del Proyecto",
+      "procesos": [
+        {
+          "id": 11.1,
+          "nombre": "Planificar la Gestión de los Riesgos",
+          "definicion": {
+            "texto": "Planificar la gestión de los riesgos es el proceso que define cómo realizar la identificación, el análisis, la planificación de respuesta a los riesgos. La gestión de riesgos busca aumentar la probabilidad y el impacto de las oportunidades, y disminuir la probabilidad y el impacto de las amenazas.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Análisis de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan de gestión de los riesgos"
+            ]
+          }
+        },
+        {
+          "id": 11.2,
+          "nombre": "Identificar los Riesgos",
+          "definicion": {
+            "texto": "Proceso de identificar los riesgos individuales asi como las fuentes de riesgo general y documentar sus caracteristicas",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Acuerdos",
+              "Documentación de las adquisiciones",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Habilidades interpersonales y de equipo",
+              "Listas rápidas",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Registro de riesgos",
+              "Informe de riesgos",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 11.3,
+          "nombre": "Realizar el Análisis Cualitativo de Riesgos",
+          "definicion": {
+            "texto": "Proceso de priorizar los riesgos individuales del proyecto para análisis o acción posterior, evaluando la probabilidad de acurrencia e impacto de dichos riesgos, aí como otras características.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Habilidades interpersonales y de equipo",
+              "Categorización de riesgos",
+              "Representación de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 11.4,
+          "nombre": "Realizar el Análisis Cuantitativo de Riesgos",
+          "definicion": {
+            "texto": "Proceso de analizar numéricamente el efecto combinado de los riesgos individuales del proyecto identificados y otras fuentes de incertidumbre sobre losobjetivos generales del proyecto",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Representaciones de la incertidumbr",
+              "Análisis de datos"
+            ],
+            "salidas": [
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 11.5,
+          "nombre": "Planificar la Respuesta a los Riesgos",
+          "definicion": {
+            "texto": "Planificar la respuesta a los riesgos consiste en desarrollar opciones y acciones para mejorar las oportunidades y reducir las amenazas a los objetivos del proyecto. Es importante en esta etapa asignar a una persona (el “propietario de la respuesta a los riesgos”) para que asuma la responsabilidad de cada respuesta a los riesgos.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Estrategias para amenaza",
+              "Estrategias para oportunidades",
+              "Estrategias de respuesta a contingencias",
+              "Estrategias para el riesgo general del proyecto",
+              "Análisis de datos",
+              "Toma de decisiones"
+            ],
+            "salidas": [
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 11.6,
+          "nombre": "Implementar la Respuesta a los Riesgos",
+          "definicion": {
+            "texto": "Proceso de implementar planes acordados de respuesta a los riesgos",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Habilidades interpersonales y de equipo",
+              "Sistema de información para la dirección de proyectos"
+            ],
+            "salidas": [
+              "Solicitudes de cambio",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 11.7,
+          "nombre": "Monitorear los Riesgos",
+          "definicion": {
+            "texto": "En el proceso de controlar los riesgos, se rastrean los riesgos identificados, se monitorean los riesgos residuales, se identifican nuevos riesgos y se evalúa la efectividad del proceso contra los riesgos a través del proyecto. Lo que se debe buscar en este proceso es optimizar la eficacia de las respuestas a todas aquellas amenazas del proyecto.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Datos de desempeño del trabajo",
+              "Informes de desempeño del trabajo"
+            ],
+            "herramientas": [
+              "Análisis de datos",
+              "Auditorías",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Información de desempeño del trabajo",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "nombre": "Gestión de las Adquisiciones del Proyecto",
+      "procesos": [
+        {
+          "id": 12.1,
+          "nombre": "Planificar la Gestión de las Adquisiciones",
+          "definicion": {
+            "texto": "Planificar la gestión de las adquisiciones es determina qué bienes y servicios deberán adquirirse fuera de la organización y cuáles podrán ser provistos internamente por el equipo de proyecto. Se analiza cuál es el tipo de contrato más conveniente para cada caso en particular, se prepara toda la documentación necesaria para realizar los pedidos de propuestas. que comprar, cuando, como",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Documentos de negocio",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Criterios de selección de proveedores",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan de gestión de las adquisiciones",
+              "Estrategia de las adquisiciones",
+              "Documentos de las licitaciones",
+              "Enunciados del trabajo relativo a adquisiciones",
+              "Criterios de selección de proveedores",
+              "Decisiones de hacer o comprar",
+              "Estimaciones independientes de costos",
+              "Solicitudes de cambio",
+              "Actualizaciones a los documentos del proyecto",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        },
+        {
+          "id": 12.2,
+          "nombre": "Efectuar las Adquisiciones",
+          "definicion": {
+            "texto": "Efectuar las adquisciones es el proceso de obtener respuestas de los proveedores, seleccionarlos y generar contratos. En ocasiones se puede seleccionar a un solo proveedor para bajar costos, sin embargo en caso que el proveedor no cumpla, el riesgo para el proyecto puede ser alto.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Documentación de las adquisiciones",
+              "Propuestas de los vendedores",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Publicidad",
+              "Conferencia de oferentes",
+              "Análisis de datos",
+              "Habilidades interpersonales y de equipo"
+            ],
+            "salidas": [
+              "Vendedores seleccionados",
+              "Acuerdos",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        },
+        {
+          "id": 12.3,
+          "nombre": "Controlar las Adquisiciones",
+          "definicion": {
+            "texto": "Controlar las adquisiciones es administrar las relaciones y el desempeño de los proveedores. Se tiene que verificar que se cumplan con los términos y condiciones de los contratos. Este proceso es ejecutado por unos recursos especializados llamados administradores de contratos y son los únicos que pueden autorizar o rechazar una solicitud formal de cambio al contrato.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Acuerdos",
+              "Documentación de las adquisiciones",
+              "Solicitudes de cambio aprobadas",
+              "Datos de desempeño del trabajo",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Administración de reclamaciones",
+              "Análisis de datos",
+              "Inspección",
+              "Auditorías"
+            ],
+            "salidas": [
+              "Adquisiciones cerradas",
+              "Información de desempeño del trabajo",
+              "Actualizaciones de la documentación de las adquisiciones",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto",
+              "Actualizaciones a los activos de los procesos de la organización"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "nombre": "Gestión de los Interesados del Proyecto",
+      "procesos": [
+        {
+          "id": 13.1,
+          "nombre": "Identificar a los Interesados",
+          "definicion": {
+            "texto": "Identificar a los interesados es el primero proceso que realiza un administrador de proyectos una vez que es nombrado. Los interesados son todas aquellas personas u organizaciones cuyos intereses puedan ser afectados de manera positiva o negativa por el proyecto. Utilizando el acta de constitución del proyecto, se aplica un análisis de los interesados para identificar la influencia de cada uno de ellos",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Documentos de negocio",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Acuerdos",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Representación de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Registro de interesados",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 13.2,
+          "nombre": "Planificar el Involucramiento de los Interesados",
+          "definicion": {
+            "texto": "La gestión de los interesados es definir la estrategia para comprometerlos con el proyecto y mitigar de esa forma posibles impactos negativos, se gestionan sus expectativas y requisitos.",
+            "entradas": [
+              "Acta de constitución del proyecto",
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Acuerdos",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Recopilación de datos",
+              "Toma de decisiones",
+              "Representación de datos",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Plan de involucramiento de los interesados"
+            ]
+          }
+        },
+        {
+          "id": 13.3,
+          "nombre": "Gestionar la Participación de los Interesados",
+          "definicion": {
+            "texto": "Gestionar la participación de los interesados es el proceso de comunicarse y trabajar con ellos para satisfacer sus necesidades/expectativas, abordar los incidentes en el momento en que ocurren y fomentar la participación.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Juicio de expertos",
+              "Habilidades de comunicación",
+              "Habilidades interpersonales y de equipo",
+              "Reglas básicas",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        },
+        {
+          "id": 13.4,
+          "nombre": "Monitorear el Involucramiento de los Interesados",
+          "definicion": {
+            "texto": "Es el proceso de monitorear las relaciones de los interesados del proyecto y ajustar las estrategias y los planes para involucrar a los stakeholders.",
+            "entradas": [
+              "Plan para la dirección del proyecto",
+              "Documentos del proyecto",
+              "Datos de desempeño del trabajo",
+              "Factores ambientales de la empresa",
+              "Activos de los procesos de la organización"
+            ],
+            "herramientas": [
+              "Análisis de datos",
+              "Toma de decisiones",
+              "Representación de datos",
+              "Habilidades de comunicación",
+              "Habilidades interpersonales y de equipo",
+              "Reuniones"
+            ],
+            "salidas": [
+              "Información de desempeño del trabajo",
+              "Solicitudes de cambio",
+              "Actualizaciones al plan para la dirección del proyecto",
+              "Actualizaciones a los documentos del proyecto"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "criterios": [
+    {
+      "id": 1,
+      "nombre": "Tipo de proyecto",
+      "etiqueta": [
+        {
+          "nombre": "Organizativo",
+          "procesos": [
+            4.1,
+            4.2,
+            4.5,
+            4.7,
+            5.1,
+            5.2,
+            5.3,
+            5.4,
+            6.1,
+            6.2,
+            6.3,
+            6.4,
+            6.5
+          ]
+        },
+        {
+          "nombre": "Estandar",
+          "procesos": [
+            4.1,
+            4.2,
+            4.5,
+            4.6,
+            4.7,
+            5.1,
+            5.2,
+            5.3,
+            5.4,
+            6.1,
+            6.2,
+            6.3,
+            6.4,
+            6.5
+          ]
+        },
+        {
+          "nombre": "Especiales",
+          "procesos": [
+            4.1,
+            4.2,
+            4.5,
+            4.6,
+            4.7,
+            5.1,
+            5.2,
+            5.3,
+            5.4,
+            6.1,
+            6.2,
+            6.3,
+            6.4,
+            6.5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Tiempo",
+      "etiqueta": [
+        {
+          "nombre": "0 - 3 meses",
+          "procesos": [
+            4.6,
+            5.5,
+            5.6,
+            6.6
+          ]
+        },
+        {
+          "nombre": "3.1 - 6 meses",
+          "procesos": [
+            4.6,
+            5.5,
+            5.6,
+            6.6
+          ]
+        },
+        {
+          "nombre": "6.1 - 12 meses",
+          "procesos": [
+            4.2,
+            4.3,
+            4.5,
+            4.6,
+            5.5,
+            5.6,
+            6.6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Recurso humano",
+      "etiqueta": [
+        {
+          "nombre": "0 - 10 personas",
+          "procesos": [
+            4.4,
+            9.2,
+            9.3,
+            10.2
+          ]
+        },
+        {
+          "nombre": "11 - 20 personas",
+          "procesos": [
+            4.4,
+            9.2,
+            9.3,
+            9.6,
+            10.2,
+            10.3
+          ]
+        },
+        {
+          "nombre": "Más de 20 personas",
+          "procesos": [
+            4.2,
+            4.3,
+            4.5,
+            9.1,
+            9.2,
+            9.3,
+            9.4,
+            9.5,
+            9.6,
+            10.1,
+            10.2,
+            10.3
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Complejidad",
+      "etiqueta": [
+        {
+          "nombre": "Baja",
+          "procesos": [
+            4.6
+          ]
+        },
+        {
+          "nombre": "Media",
+          "procesos": [
+            4.4,
+            4.5,
+            4.6
+          ]
+        },
+        {
+          "nombre": "Alta",
+          "procesos": [
+            4.2,
+            4.3,
+            4.4,
+            4.5,
+            4.6,
+            10.1,
+            10.2,
+            10.3,
+            11.1,
+            11.6,
+            11.7
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Incertidumbre",
+      "etiqueta": [
+        {
+          "nombre": "Baja",
+          "procesos": [
+            11.2,
+            11.3,
+            11.4,
+            11.5
+          ]
+        },
+        {
+          "nombre": "Media",
+          "procesos": [
+            11.1,
+            11.2,
+            11.3,
+            11.4,
+            11.5
+          ]
+        },
+        {
+          "nombre": "Alta",
+          "procesos": [
+            4.2,
+            4.3,
+            4.4,
+            4.5,
+            11.1,
+            11.2,
+            11.3,
+            11.4,
+            11.5,
+            11.6,
+            11.7
+          ]
+        }
+      ]
+    }
+  ]
+}

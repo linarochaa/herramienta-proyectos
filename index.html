@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Herramienta Procesos</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Questrial">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    </head>
+
+    <body>
+        <main>
+
+            <table class="table table-striped"
+                style="width:80%; margin-left: auto; margin-right: auto; border-style: outset; margin-top: 25px; font-family: 'Questrial', serif;">
+                <thead>
+                    <tr>
+                        <th scope="col" style="width:130px; text-align:center;">Criterio</th>
+                        <th scope="col" style="width:300px">Nombre</th>
+                        <th scope="col">Seleccionar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" style="text-align:center;">1</th>
+                        <td>Tipo de proyecto</td>
+                        <td>
+                            <div>
+                                <select id="criterio1" class="font">
+                                    <option data-placeholder="true"></option>
+                                    <option value="Organizativo">Organizativo</option>
+                                    <option value="Estandar">Estandar</option>
+                                    <option value="Especiales">Especiales</option>
+                                </select>
+                                <script src="js/slimselect.js"></script>
+                                <script>
+                                    var cr1 = new SlimSelect({
+                                        select: "#criterio1",
+                                        placeholder: "Tipo de proyecto",
+                                        showSearch: false, // shows search field,
+                                        closeOnSelect: true
+                                    });
+                                </script>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style="text-align:center;">2</th>
+                        <td>Costo (en millones de pesos)</td>
+                        <td>
+                            <div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <input type="range" min="0" max="4000" value="1000" class="slider"
+                                                id="rango-costo">
+                                        </div>
+                                        <div class="col-5">
+                                            <p>Costo: <span id="costo"></span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script>
+                                    var slider_cos = document.getElementById("rango-costo");
+                                    var output_cos = document.getElementById("costo");
+                                    let cr_2 = 1000
+                                    output_cos.innerHTML = "$" + (slider_cos.value).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " millones";
+
+                                    slider_cos.oninput = function () {
+                                        let valor = this.value
+                                        cr_2 = this.value
+                                        output_cos.innerHTML = "$" + (valor).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " millones";
+
+                                    }
+                                </script>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style="text-align:center;">3</th>
+                        <td>Tiempo</td>
+                        <td>
+                            <div>
+                                <select id="criterio3" class="font">
+                                    <option data-placeholder="true"></option>
+                                    <option value="0 - 3 meses">0 - 3 meses</option>
+                                    <option value="3.1 - 6 meses">3.1 - 6 meses</option>
+                                    <option value="6.1 - 12 meses">6.1 - 12 meses</option>
+                                </select>
+                                <script src="js/slimselect.js"></script>
+                                <script>
+                                    var cr3 = new SlimSelect({
+                                        select: "#criterio3",
+                                        placeholder: "Tiempo",
+                                        showSearch: false, // shows search field,
+                                        closeOnSelect: true
+                                    });
+                                </script>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style="text-align:center;">4</th>
+                        <td>Recursos humanos</td>
+                        <td>
+                            <div>
+                                <select id="criterio4" class="font">
+                                    <option data-placeholder="true"></option>
+                                    <option value="0 - 10 personas">0 - 10 personas</option>
+                                    <option value="11 - 20 personas">11 - 20 personas</option>
+                                    <option value="Más de 20 personas">Más de 20 personas</option>
+                                </select>
+                                <script src="js/slimselect.js"></script>
+                                <script>
+                                    var cr4 = new SlimSelect({
+                                        select: "#criterio4",
+                                        placeholder: "Recursos humanos",
+                                        showSearch: false, // shows search field,
+                                        closeOnSelect: true
+                                    });
+                                </script>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style="text-align:center;">5</th>
+                        <td>Dedicación (Horas por persona)</td>
+                        <td>
+                            <div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <input type="range" min="0" max="24001" value="8000" class="slider"
+                                                id="rango-dedi">
+                                        </div>
+                                        <div class="col-5">
+                                            <p>Horas por persona: <span id="dedi"></span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script>
+                                    var slider = document.getElementById("rango-dedi");
+                                    var output = document.getElementById("dedi");
+                                    let cr_5 = 8000
+                                    output.innerHTML = (slider.value).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+                                    slider.oninput = function () {
+                                        let valor = this.value
+                                        cr_5 = this.value
+                                        if (valor == 24001) {
+                                            output.innerHTML = "> 24,000";
+                                        } else {
+                                            output.innerHTML = (valor).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                                        }
+
+                                    }
+                                </script>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style="text-align:center;">6</th>
+                        <td>Complejidad</td>
+                        <td>
+                            <div>
+                                <select id="criterio6" class="font">
+                                    <option data-placeholder="true"></option>
+                                    <option value="Baja">Baja</option>
+                                    <option value="Media">Media</option>
+                                    <option value="Alta">Alta</option>
+                                </select>
+                                <script src="js/slimselect.js"></script>
+                                <script>
+                                    var cr6 = new SlimSelect({
+                                        select: "#criterio6",
+                                        placeholder: "Complejidad",
+                                        showSearch: false, // shows search field,
+                                        closeOnSelect: true
+                                    });
+                                </script>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style="text-align:center;">7</th>
+                        <td>Incertidumbre</td>
+                        <td>
+                            <div>
+                                <select id="criterio7" class="font">
+                                    <option data-placeholder="true"></option>
+                                    <option value="Baja">Baja</option>
+                                    <option value="Media">Media</option>
+                                    <option value="Alta">Alta</option>
+                                </select>
+                                <script src="js/slimselect.js"></script>
+                                <script>
+                                    var cr7 = new SlimSelect({
+                                        select: "#criterio7",
+                                        placeholder: "Incertidumbre",
+                                        showSearch: false, // shows search field,
+                                        closeOnSelect: true
+                                    });
+                                </script>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <div class="boton">
+            <div class="boton-vertical-center">
+                <button id="btn-listar" class="btn btn-2"
+                    style="background-color: #5897fb;  font-family: 'Questrial', serif; color: white; ">Listar
+                    procesos</button>
+            </div>
+            <script src="js/listar.js"></script>
+        </div>
+
+        <div id="tabla"></div>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+    </body>
+
+</html>
