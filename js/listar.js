@@ -53,12 +53,12 @@ $("#btn-listar").click(function () {
                 });
 
                 if (cr_2 >= 0 && cr_2 <= 600) {
-                    let t = [5.5, 5.6, 7.1, 7.2, 7.3, 7.4, 12.2, 12.3]
+                    let t = [5.5, 7.3, 7.4, 12.2, 12.3]
                     t.forEach(pr => {
                         arr_proc.push(pr)
                     });
                 } else if (cr_2 >= 601 && cr_2 <= 1500) {
-                    let t = [5.5, 5.6, 7.1, 7.2, 7.3, 7.4, 10.3, 11.7, 12.2, 12.3]
+                    let t = [5.5, 5.6, 7.3, 7.4, 12.2, 12.3]
                     t.forEach(pr => {
                         arr_proc.push(pr)
                     });
@@ -70,12 +70,12 @@ $("#btn-listar").click(function () {
                 }
 
                 if (cr_5 >= 0 && cr_5 <= 6750) {
-                    let t = [8.3, 13.1, 13.3]
+                    let t = [8.3, 13.3]
                     t.forEach(pr => {
                         arr_proc.push(pr)
                     });
                 } else if (cr_5 >= 6751 && cr_5 <= 24000) {
-                    let t = [8.1, 8.2, 8.3, 13.1, 13.3, 13.4]
+                    let t = [8.3, 13.1]
                     t.forEach(pr => {
                         arr_proc.push(pr)
                     });
